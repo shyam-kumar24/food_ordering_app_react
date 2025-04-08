@@ -19,10 +19,10 @@
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
-    "build": "parcel build index.html --no-scope-hoist"
+    "build": "parcel build index.html"
   },
   "devDependencies": {
-    "parcel": "2.14.3"
+    "parcel": "2.14.4"
   },
   "dependencies": {
     "@reduxjs/toolkit": "2.6.1",
