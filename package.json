@@ -19,7 +19,7 @@
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --no-scope-hoist"
   },
   "devDependencies": {
     "parcel": "2.14.3"
